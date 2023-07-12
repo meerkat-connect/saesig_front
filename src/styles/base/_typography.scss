@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("../../assets/font/Pretendard-Regular.otf"); // public 제외하고 나머지 경로를 써준다
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sub-text-gray {
+  font-family: Pretendard-Regular;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #ACACAC;
+}
