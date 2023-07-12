@@ -1,0 +1,23 @@
+// Import reset or normalize file
+@import 'base/reset'; // Assuming the reset file is located in the base folder
+
+// Import other base styles
+@import 'base/typography';
+@import 'base/buttons';
+
+// Import components
+@import 'components/button';
+@import 'components/card';
+@import 'components/form';
+
+// Import layout styles
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/layout';
+@import 'layout/sidebar';
+
+
+// Import other stylesheets or individual pages
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
